@@ -1,5 +1,5 @@
 from os import times_result
-from src.tweet import Tweeter
+from src.tweeter import Tweeter
 from tests.fake_api import FakeApi
 import random
 import string
