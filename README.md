@@ -10,7 +10,7 @@ When prompoted enter your keys which you recieve at the Twitter Dev portal
 git clone [repo name]
 chmod +x /src/tweetPy.py
 pip install -r requirements.txt
-./src/tweetPy.py
+./src/main.py
 ```
 
 Once you've installed the neccasary dependecies, you can alias the program
