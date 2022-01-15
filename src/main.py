@@ -1,4 +1,4 @@
-from src.tweeter import Tweeter
-from src.api import Api
+from tweeter import Tweeter
+from api import Api
 
 Tweeter(Api()).post_tweet()

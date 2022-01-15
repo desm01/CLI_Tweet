@@ -3,9 +3,8 @@ import pickle
 
 class Api:
 
-    list_of_keys = []
-
     def __init__(self):
+        list_of_keys = []
         try:
             with open('keys.pkl', 'rb') as f:
                 list_of_keys = pickle.load(f)
