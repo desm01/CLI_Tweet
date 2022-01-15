@@ -8,15 +8,15 @@ When prompoted enter your keys which you recieve at the Twitter Dev portal
 
 ```sh
 git clone [repo name]
-chmod +x /src/tweetPy.py
+chmod +x src/main.py
 pip install -r requirements.txt
-./src/main.py
+python src/main.py
 ```
 
 Once you've installed the neccasary dependecies, you can alias the program
 
 ```sh
-export alias tweet="[Path to file]/src/tweetPy.py"
+export alias tweet="[Path to file]/src/main.py"
 ```
 
 ### To run the tests:
